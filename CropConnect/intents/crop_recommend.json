@@ -1,0 +1,62 @@
+{
+  "id": "f273de9e-2f90-486a-ac60-6f426ea4a7ee",
+  "name": "crop_recommend",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "sure u can type the levels of nitrogen, phosphorous, potassium, temperature, humidity, ph and rainfall values respectively  or else u can visit below link to get recommendation"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "link": "http://localhost/crop-management-system/crop_recommendation.php",
+                  "event": {
+                    "languageCode": "",
+                    "parameters": {},
+                    "name": ""
+                  },
+                  "text": "Click Here to get recommendation of crop",
+                  "type": "button",
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "chevron_right"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

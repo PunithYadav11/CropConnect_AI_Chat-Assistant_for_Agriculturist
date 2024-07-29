@@ -1,0 +1,9 @@
+{
+  "id": "7b869ea3-541b-42f7-adad-f4ad457bb5d3",
+  "name": "season",
+  "isOverridable": true,
+  "isEnum": true,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

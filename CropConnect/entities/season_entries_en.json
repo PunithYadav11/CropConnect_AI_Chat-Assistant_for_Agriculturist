@@ -1,0 +1,44 @@
+[
+  {
+    "value": "Autum",
+    "synonyms": [
+      "Autum"
+    ]
+  },
+  {
+    "value": "Rabi",
+    "synonyms": [
+      "Rabi"
+    ]
+  },
+  {
+    "value": "Kharif",
+    "synonyms": [
+      "Kharif"
+    ]
+  },
+  {
+    "value": "Whole Year",
+    "synonyms": [
+      "Whole Year"
+    ]
+  },
+  {
+    "value": "Summer",
+    "synonyms": [
+      "Summer"
+    ]
+  },
+  {
+    "value": "Winter",
+    "synonyms": [
+      "Winter"
+    ]
+  },
+  {
+    "value": "Rainy",
+    "synonyms": [
+      "Rainy"
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "id": "a3257e30-e8a9-4bf8-b74f-7603dd844ad5",
+  "name": "ThankYou",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You\u0027re welcome! I\u0027m glad I could help",
+            "No problem at all! Let me know if you need anything else.",
+            "It was my pleasure! Don\u0027t hesitate to reach out if you need further assistance.",
+            "Anytime! I\u0027m here to help.",
+            "Happy to assist! Have a great day!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

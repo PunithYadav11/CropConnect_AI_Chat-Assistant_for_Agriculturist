@@ -1,0 +1,54 @@
+{
+  "id": "05e83c81-2568-4baf-b909-347026808d4b",
+  "name": "welcome intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Good morning! Ready to cultivate some knowledge about agriculture?",
+            "Hi there! How about we plant some conversations about agriculture today?",
+            "Yo! Interested in digging deeper into the world of agriculture with me?",
+            "Greetings! How about we cultivate some fascinating conversations about agriculture?",
+            "Hey, agri-aficionado! Let\u0027s nurture our curiosity with agriculture",
+            "Hi, agrarian enthusiast! Ready to plow through some agricultural topics?",
+            "Good to see you! Shall we water our minds with agricultural insights?",
+            "Hello! Let\u0027s till the soil of conversation and explore agriculture today.",
+            "How\u0027s it going? Ready to plant the seeds of curiosity about agriculture?",
+            "Hey there! How about we harvest some knowledge about agriculture together?",
+            "Hi, green thumb! Let\u0027s cultivate some interesting discussions about agriculture.",
+            "What\u0027s up? Ready to delve into the world of agriculture with me?",
+            "Well, hello there! Ready to nourish your mind with agricultural facts?",
+            "Hiya! Let\u0027s cultivate a conversation about agriculture, shall we?",
+            "Hey, farmer friend! What agricultural wonders are we exploring today?",
+            "Salutations! Interested in growing your knowledge about agriculture?",
+            "Greetings! Let\u0027s plow through some interesting agricultural insights",
+            "Howdy! Ready to dig into some agricultural topics?",
+            "Good afternoon! Let\u0027s sow the seeds of discussion about agriculture.",
+            "Hey! Hope you\u0027re ready for a harvest of information about agriculture!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

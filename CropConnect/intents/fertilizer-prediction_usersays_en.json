@@ -1,0 +1,54 @@
+[
+  {
+    "id": "033c0f58-f1fd-465f-864d-a81e6f1fe5da",
+    "data": [
+      {
+        "text": "can u help me with fertilizer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "defe01eb-7068-4f14-898e-7e8ec34cf90f",
+    "data": [
+      {
+        "text": "suggest me a good fertilizer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e2d963be-136f-4646-8890-28ad38388fcd",
+    "data": [
+      {
+        "text": "which fertilizer is best?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f4c68cc1-4b22-4d12-b5d5-e762f88a3a81",
+    "data": [
+      {
+        "text": "crop fertilizer prediction",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "155505ee-3456-4f10-9b1c-ea9c75fbb560",
+    "data": [
+      {
+        "text": "well, hello there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7a52f180-223a-469d-9ca3-08f57b11f9a3",
+    "data": [
+      {
+        "text": "Greetings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ac7e47e5-ce1b-48f1-ba16-ae6e9bbba0bc",
+    "data": [
+      {
+        "text": "How are you?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f1cb9321-cc96-49e0-931c-761548607547",
+    "data": [
+      {
+        "text": "Yo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d396e971-c43c-4249-ae21-74f1bf3b836d",
+    "data": [
+      {
+        "text": "Good Morning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "22f5f137-62fd-41d9-8425-aad69143acb8",
+    "data": [
+      {
+        "text": "Good Evening",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "903a9b62-b623-43eb-b1e7-6181bad2f152",
+    "data": [
+      {
+        "text": "Good Afternoon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7312e692-7299-4bbf-9a0c-62cc952e1c78",
+    "data": [
+      {
+        "text": "Hey",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e7e9b289-66c4-4f8b-9262-809112e4ea65",
+    "data": [
+      {
+        "text": "Hii",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9e85418e-c0d6-41d3-b305-47caaac427c6",
+    "data": [
+      {
+        "text": "Hello",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

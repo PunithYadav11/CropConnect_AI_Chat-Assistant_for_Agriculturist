@@ -1,0 +1,231 @@
+[
+  {
+    "id": "5fc1b1ba-5a60-4978-bc7a-924295083d0c",
+    "data": [
+      {
+        "text": "31",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": ",",
+        "userDefined": false
+      },
+      {
+        "text": "48",
+        "meta": "@sys.number",
+        "alias": "number1",
+        "userDefined": true
+      },
+      {
+        "text": ",",
+        "userDefined": false
+      },
+      {
+        "text": "17",
+        "meta": "@sys.number",
+        "alias": "number2",
+        "userDefined": true
+      },
+      {
+        "text": ",",
+        "userDefined": false
+      },
+      {
+        "text": "28.88",
+        "meta": "@sys.number",
+        "alias": "number3",
+        "userDefined": true
+      },
+      {
+        "text": ",",
+        "userDefined": false
+      },
+      {
+        "text": "86.94",
+        "meta": "@sys.number",
+        "alias": "number4",
+        "userDefined": true
+      },
+      {
+        "text": ",",
+        "userDefined": false
+      },
+      {
+        "text": "6.594",
+        "meta": "@sys.number",
+        "alias": "number5",
+        "userDefined": true
+      },
+      {
+        "text": ",",
+        "userDefined": false
+      },
+      {
+        "text": "53.79",
+        "meta": "@sys.number",
+        "alias": "number6",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ff8ebf63-06eb-4bdf-a80b-d696514abee9",
+    "data": [
+      {
+        "text": "31",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": ",",
+        "userDefined": false
+      },
+      {
+        "text": "48",
+        "meta": "@sys.number",
+        "alias": "number1",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "17",
+        "meta": "@sys.number",
+        "alias": "number2",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "28.88",
+        "meta": "@sys.number",
+        "alias": "number3",
+        "userDefined": true
+      },
+      {
+        "text": " ,",
+        "userDefined": false
+      },
+      {
+        "text": "86.94",
+        "meta": "@sys.number",
+        "alias": "number4",
+        "userDefined": true
+      },
+      {
+        "text": " ,",
+        "userDefined": false
+      },
+      {
+        "text": "6.594",
+        "meta": "@sys.number",
+        "alias": "number5",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "53.79",
+        "meta": "@sys.number",
+        "alias": "number6",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "efc8eeb4-8fbb-4c68-b942-7ca36e209e1f",
+    "data": [
+      {
+        "text": "The level of nitrogen is ",
+        "userDefined": false
+      },
+      {
+        "text": "31,",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": " phosphorous is ",
+        "userDefined": false
+      },
+      {
+        "text": "48",
+        "meta": "@sys.number",
+        "alias": "number1",
+        "userDefined": true
+      },
+      {
+        "text": ", potassium is ",
+        "userDefined": false
+      },
+      {
+        "text": "17",
+        "meta": "@sys.number",
+        "alias": "number2",
+        "userDefined": true
+      },
+      {
+        "text": ", temperature is ",
+        "userDefined": false
+      },
+      {
+        "text": "28.88078945",
+        "meta": "@sys.number",
+        "alias": "number3",
+        "userDefined": true
+      },
+      {
+        "text": ", humidity is ",
+        "userDefined": false
+      },
+      {
+        "text": "86.94206817",
+        "meta": "@sys.number",
+        "alias": "number4",
+        "userDefined": true
+      },
+      {
+        "text": ", ph is ",
+        "userDefined": false
+      },
+      {
+        "text": "6.5947394",
+        "meta": "@sys.number",
+        "alias": "number5",
+        "userDefined": true
+      },
+      {
+        "text": " and rainfall is ",
+        "userDefined": false
+      },
+      {
+        "text": "53.79732545",
+        "meta": "@sys.number",
+        "alias": "number6",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

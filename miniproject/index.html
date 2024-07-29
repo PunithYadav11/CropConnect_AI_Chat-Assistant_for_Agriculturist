@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CropConnect</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('BgImg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    #navbar {
+      background-color: rgba(76, 175, 80, 0.9); /* Semi-transparent background */
+      padding: 15px;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    #navbar i {
+      font-size: 30px;
+      margin-right: 8px;
+    }
+
+    #navbar nav {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    #navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+      padding: 5px;
+    }
+
+    #navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .login-container {
+      display: flex;
+      align-items: center;
+    }
+
+    #login-btn {
+      background-color: #81c784;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #4caf50;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+      top: 40px;
+      right: 15px;
+    }
+
+    .dropdown-content a {
+      color: #fff;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #45a049;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    #content {
+      display: flex;
+      flex: 1;
+      margin-top: 20px;
+    }
+
+    #sidebar {
+      width: 200px;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 15px;
+      border-right: 1px solid #81c784;
+      overflow-y: auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+      height: calc(100vh - 300px);
+      transform: translateX(-100%);
+      position: absolute; /* Added */
+    top: 120px; /* Adjusted position */
+    left: 0;
+    }
+
+    #sidebar h2 {
+      font-size: 24px;
+      margin-top: 0;
+      color: #4caf50;
+    }
+
+    #sidebar ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    #sidebar ul li {
+      padding: 10px;
+      margin-bottom: 5px; /* Added margin for spacing */
+      border-bottom: 1px solid #81c784;
+      cursor: pointer;
+    }
+
+    #sidebar ul li:hover {
+      background-color: #f1f8e9;
+    }
+
+    #main-content {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    #about-section {
+      max-width: 800px;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 20px;
+      border: 1px solid #81c784;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #about-section h1 {
+      color: #4caf50;
+      font-size: 28px;
+      margin-top: 0;
+    }
+
+    #about-section p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 10px 0;
+    }
+
+    #toggle-sidebar {
+  background-color: #81c784;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  position: absolute;
+  left: 10px;
+  top: 70px; /* Adjusted position */
+  z-index: 1000px;
+}
+
+
+    df-messenger {
+      --df-messenger-bot-message: #878fac;
+      --df-messenger-button-titlebar-color: #df9b56;
+      --df-messenger-chat-background-color: #fafafa;
+      --df-messenger-font-color: white;
+      --df-messenger-send-icon: #878fac;
+      --df-messenger-user-message: #479b3d;
+    }
+  </style>
+</head>
+<body>
+
+<header id="navbar">
+  <i class="fas fa-tractor" aria-hidden="true"></i>
+  <span>CropConnect</span>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Community</a>
+  </nav>
+  <div class="login-container">
+    <div class="dropdown">
+      <button id="login-btn">Login</button>
+      <div class="dropdown-content">
+        <a href="#">Profile</a>
+        <a href="#">Settings</a>
+        <a href="#">Logout</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<button id="toggle-sidebar" onclick="toggleSidebar()">Previous Chats</button>
+
+<div id="content">
+  <aside id="sidebar">
+    <h2>Previous Chats</h2>
+    <ul>
+      <li>Chat 1</li>
+      <li>Chat 2</li>
+      <li>Chat 3</li>
+      <li>Chat 4</li>
+    </ul>
+  </aside>
+
+  <div id="main-content">
+    <section id="about-section">
+      <h1>About CropConnect</h1>
+      <p>CropConnect is a revolutionary platform designed to connect farmers with the latest agricultural information and resources. Our mission is to empower farmers by providing them with access to modern tools, expert advice, and a community of fellow agricultural enthusiasts.</p>
+      <p>With CropConnect, farmers can easily get information on weather forecasts, best practices in farming, pest control, crop management, and more. Our chat assistant is here to answer your questions and provide personalized support whenever you need it.</p>
+      <p>Join the CropConnect community today and take the next step in modern farming. Together, we can achieve sustainable and profitable agriculture for all.</p>
+    </section>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+<script>
+  function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    if (sidebar.style.transform === 'translateX(-100%)') {
+      sidebar.style.transform = 'translateX(0)';
+    } else {
+      sidebar.style.transform = 'translateX(-100%)';
+    }
+  }
+</script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function() {
+    window.addEventListener('dfMessengerLoaded', function(event) {
+      const $r1 = document.querySelector("df-messenger");
+      const $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
+      const $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); // For other mods
+      const sheet = new CSSStyleSheet();
+      // Manage box height from here
+      sheet.replaceSync(`div.chat-wrapper[opened="true"] { height: 430px }`);
+      $r2.shadowRoot.adoptedStyleSheets = [sheet];
+    });
+  });
+</script>
+
+<!-- Dialogflow Messenger widget -->
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-title="CropConnect"
+  agent-id="3b6a44eb-01ba-4770-89a7-811e4e0f7cfe"
+  language-code="en"
+></df-messenger>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "53f14aa7-ce8a-4a06-9d30-3cdfdbcba225",
+    "data": [
+      {
+        "text": "Predict the yield for my crops",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3af5a426-20a5-45c5-91f4-912398e12bd4",
+    "data": [
+      {
+        "text": "How much crop yield can I expect?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "edc8b779-1e66-4764-8bbb-ebe3eab07a79",
+    "data": [
+      {
+        "text": "I need a yield forecast",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4cda25a3-d1a1-4d53-a353-f771718aea7c",
+    "data": [
+      {
+        "text": "Can you predict the yield for my farm?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8f1d534c-db55-4e5e-a54d-5703cc13b6e1",
+    "data": [
+      {
+        "text": "What is the yield prediction for this season?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

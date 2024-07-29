@@ -1,0 +1,119 @@
+[
+  {
+    "id": "2ed01f62-fa03-4ca1-80e9-5dc7ea3b85d4",
+    "data": [
+      {
+        "text": "what crop should i grow during ",
+        "userDefined": false
+      },
+      {
+        "text": "kharif",
+        "meta": "@season",
+        "alias": "season",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "bengaluru",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "karnataka",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2edb72e7-6158-42fc-8927-aba3616d1cae",
+    "data": [
+      {
+        "text": "what crop should i grow in ",
+        "userDefined": false
+      },
+      {
+        "text": "karnataka",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "bengaluru",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " during ",
+        "userDefined": false
+      },
+      {
+        "text": "summer",
+        "meta": "@season",
+        "alias": "season",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fe787655-2583-4c6a-af44-e47cf21cc53d",
+    "data": [
+      {
+        "text": "what crop should i grow in ",
+        "userDefined": false
+      },
+      {
+        "text": "bengaluru",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "karnataka",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": true
+      },
+      {
+        "text": " during ",
+        "userDefined": false
+      },
+      {
+        "text": "summer",
+        "meta": "@season",
+        "alias": "season",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
